@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+resources/model/
+resources/unarchived
+env/
+runs/
+.DS_Store
+
 # C extensions
 *.so
 
