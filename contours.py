@@ -7,6 +7,7 @@ which contains only black or white pixels and then find its contours. The 4th
 stanza converts the b&w image back into a color image that gets the contours
 drawn upon in the 5th stanza.
 After the divider, cnt is set to contours[0] and then cnt is used in most of
+the other functions, like finding the center or area or perimeter or bounding
 circle or rectangles or ellipse.
 NOTE: It is very easy to blow up with divide by zero error if the image has
 extraneous dots outside main body of contoured image
